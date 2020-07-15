@@ -40,7 +40,13 @@ public class Task {
 	public void setId(Integer id){
 		this.id=id;
 	}
+	 public String getContent() {
+	        return content;
+	    }
 
+	    public void setContent(String content) {
+	        this.content = content;
+	    }
     public Timestamp getCreated_at() {
         return created_at;
     }

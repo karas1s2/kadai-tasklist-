@@ -49,7 +49,7 @@ public class CreateServlet extends HttpServlet {
             em.getTransaction().commit();
             em.close();
 
-            response.sendRedirect(request.getContextPath());
+            response.sendRedirect(request.getContextPath()+ "/index");
 	}
 
 }
